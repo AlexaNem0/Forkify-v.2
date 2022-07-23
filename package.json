@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "recipe application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --out-dir ./dist "
+  },
+  "author": "Vik",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.53.0"
+  },
+  "dependencies": {
+    "core-js": "^3.23.4",
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.11",
+    "mathjs": "^10.6.4",
+    "parcel": "^2.6.2",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
